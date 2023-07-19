@@ -35,6 +35,15 @@ ul >li{
     font-size: 18px;
     font-weight: 500;
 }
+ul >li>a:hover{
+    color: crimson;
+    text-transform: uppercase;
+}
+ul >li>div>span>a:hover{
+    color: crimson;
+    text-transform: uppercase;
+}
+
 ul li a{
     text-decoration: none;
     color: #3C354F;
