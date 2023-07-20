@@ -140,6 +140,7 @@ p{
 
 .we-are-gamer{
     display: flex;
+    justify-content: space-between;
 }
 .gamer-image{
     padding-left: 200px;
@@ -147,6 +148,12 @@ p{
 .gamer-text{
     padding-right: 240px;
     text-align: right;
+}.gamer-text h1{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+    font-weight: 800;
 }
 .know-more{
     padding: 20px 40px;
@@ -165,3 +172,28 @@ p{
 }
 
                 /* we are gamer section done  */
+
+.online-games{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.online-games h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.funny-videos{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+..online-images div{
+    max-width: 340px;
+}
+.online-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 240px;
+}
+            /* online games style finished  */
