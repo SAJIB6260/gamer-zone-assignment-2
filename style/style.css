@@ -145,9 +145,6 @@ p{
     padding-right: 240px;
     padding-left: 200px;
 }
-.gamer-image{
-
-}
 .gamer-text{
     text-align: right;
 }.gamer-text h1{
@@ -200,6 +197,29 @@ p{
 }
 .online-images p{
     text-align: justify;
+}
+.image-overlap{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+.video-icon{
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+.video-icon i {
+    opacity: .7;
+}
+.image-overlap:hover{
+    color: crimson;
+    background-image: none;
+}
+.video-icon p:hover{
+    cursor: progress;
+    color: crimson;
 }
             /* online games style finished  */
 .play-games{
