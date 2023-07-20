@@ -197,3 +197,38 @@ p{
     padding: 40px 240px;
 }
             /* online games style finished  */
+.play-games{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 240px;
+    padding-right: 230px;
+}
+.play-image{
+    width: 60%;
+}
+.image-1{
+    height: 700px;
+    width: 650px;
+}
+.image-2{
+    height: 350px;
+    width: 300px;
+    position: relative;
+    bottom: 250px;
+    left: 520px;
+    /* top: 100px;
+    right: 180px; */
+}
+.play-text{
+    text-align: left;
+    width: 40%;
+}
+.play-text span{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.play-text h1{
+    font-size: 45px;
+    font-weight: 800;
+}
