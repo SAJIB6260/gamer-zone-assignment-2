@@ -208,7 +208,7 @@ p{
     padding: 20px;
     position: absolute;
     top: 150px;
-    left: 120px;
+    left: 100px;
 }
 .video-icon i {
     opacity: .7;
@@ -218,8 +218,10 @@ p{
     background-image: none;
 }
 .video-icon p:hover{
-    cursor: progress;
+    cursor: pointer;
     color: crimson;
+    font-size: 20px;
+    font-weight: 700;
 }
             /* online games style finished  */
 .play-games{
